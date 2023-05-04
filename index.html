@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="main_box">
+        <div class="display_main">
+            <div class="display" id="displayScreen" >
+            </div>
+        </div>
+        <div class="button_main">
+            <div class="row1 row">
+                <button class="btns" onclick="displayNum(7)" value="7">7</button>
+                <button class="btns " onclick="displayNum(8)" value="8">8</button>
+                <button class="btns" onclick="displayNum(9)" value="9">9</button>
+                <button class="btns" onclick="divOperator()" value="/">/</button>
+            </div>
+            <div class="row2 row">
+                <button class="btns" onclick="displayNum(4)" value="4">4</button>
+                <button class="btns" onclick="displayNum(5)" value="5">5</button>
+                <button class="btns" onclick="displayNum(6)" value="6">6</button>
+                <button class="btns" onclick="multiplyOperator()" value="*">x</button>
+            </div>
+            <div class="row3 row">
+                <button class="btns" onclick="displayNum(1)" value="1">1</button>
+                <button class="btns" onclick="displayNum(2)" value="2">2</button>
+                <button class="btns" onclick="displayNum(3)" value="3">3</button>
+                <button class="btns" onclick="subOperator()" value="-">-</button>
+                <button class="btns" onclick="delOperator()" value="">C</button>
+            </div>
+            <div class="row4 row">
+                <button class="btns" onclick="displayNum('.')" value=".">.</button>
+                <button class="btns" onclick="displayNum(0)" value="0">0</button>
+                <button class="btns" onclick="equalOperator()" value="=">=</button>
+                <button class="btns" onclick="addOperator()" value="+">+</button>
+                <button class="btns" onclick="clearAll()" value="">AC</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
