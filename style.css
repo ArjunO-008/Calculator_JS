@@ -1,0 +1,55 @@
+body {
+    margin: 0%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: #faf0e6;
+    background-image: url(plusSign.png);
+    background-blend-mode: overlay;
+}
+.main_box {
+    width: 100%;
+    height: fit-content;    
+    padding: 5%;
+    position: relative;
+    top: 25%;
+    border-radius: 15px;
+    border: solid 4px darkcyan;
+    box-shadow: 4px 9px 5px 2px #4b8181;
+    background: darkslategrey;
+}
+.display_main {
+    border: solid 3px;
+    background-color: #c2cf00d1;
+    padding: 5px;
+}
+.display {
+    font-size: xx-large;
+    font-weight: bold;
+    align-content: end;
+    justify-content: end;
+    display: grid;
+    color: #000;
+    height: 40px;
+}
+.button_main {
+    margin-top: 3%;
+}
+.btns {
+    background-color: #FFC107;
+    margin: 0%;
+    width: 80px;
+    height: 70px;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 5px;
+    border-color: darkslategrey;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.btns:hover {
+    background-color: #e1aa04;
+}
